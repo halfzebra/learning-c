@@ -12,12 +12,11 @@ int main(void)
     puts(strA);
     puts("\n");
     printf("%s\n", strA);
+    pA = strA;
     pB = strB;
     putchar('\n');
 
-    while (&ptr != '\0') {
-        
-    }
-    
+    printf("%c", *pA);
+
     return 0;
 }
