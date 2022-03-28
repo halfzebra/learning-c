@@ -16,3 +16,9 @@ gcc ./pointers/pointers2-1.c -o test && ./test
 ## Resources
 
 - https://github.com/oz123/awesome-c
+
+## Analyzing memory
+
+```
+gcc malloc-struct.c -o test && ./test | hexdump -d
+``` 
